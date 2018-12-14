@@ -28,3 +28,19 @@ class amazon(user):
             print "wrong choice"
 a=amazon()
 a.__init__()
+
+'''
+SAMPLE I/O:
+customer->1 
+vendor->2
+give choice : 1
+cust name : "cust_1"
+enter the name of product : "mi note 4" 
+enter the quantity of product : 1
+enter delivery address : "tce mens hostel"
+customer->1 
+vendor->2
+give choice : 2
+vendor name : "vend_1"
+['mi note 4', 1, 'tce mens hostel']
+'''
