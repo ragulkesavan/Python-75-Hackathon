@@ -20,3 +20,13 @@ c=customer()
 c.get_cust()
 v=vendor()
 v.get_vendor()
+
+'''
+SAMPLE I/O:
+cust name : "cust_1"
+enter the name of product : "mi note 4" 
+enter the quantity of product : 1
+enter delivery address : "tce mens hostel"
+vendor name : "vend_1"
+['mi note 4', 1, 'tce mens hostel']
+'''
