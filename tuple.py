@@ -11,7 +11,7 @@ t=(1,2,3,4,5,"talent","accurate")
 #ACCESSING TUPLES BY INDEXING
 print "THE SECOND ELEMENT IN THE TUPLE IS : ",t[1]
 
-#ACCESSING TUPLES BY INDEXING FORM LAST
+#ACCESSING TUPLES BY INDEXING FORM LAST -indexing form last starts from -1 and goes as -2,-3
 print "THE LAST ELEMENT IN THE TUPLE IS : ",t[-1]
 
 #LENGTH OF TUPLE -len(t)
@@ -31,6 +31,8 @@ else :
 #for loop for tuple
 for i in t:
     print i
+#concatenation of tuple t[a:b]-creates new tuple from ath elemnt to b-1th element of t
+print "sliced tuple : ",t[0:5]
 #deletion of tuple
 del(t)
  
@@ -49,5 +51,6 @@ yes present
 5
 talent
 accurate
+(1, 2, 3, 4, 5)
 '''
 
