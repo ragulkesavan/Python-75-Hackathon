@@ -17,3 +17,9 @@ func()
 '''trying to execute the print function outside produces error as the variable cannot be accessed'''
 
 print "string_global in global scope:",string_global#accessing global variable 
+'''
+OUTPUT:
+string_global inside func(): I am global variable
+string_local inside func():  I am a local variable
+string_global in global scope: I am global variable
+'''
