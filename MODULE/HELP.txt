@@ -1,0 +1,4 @@
+1.Download the module folder
+2.Open module folder
+3.Open the folder in terminal
+4.Execute python3 demo.py
