@@ -2,7 +2,7 @@ import random
 import matplotlib.pyplot as plt
 import sqlite3
 con=sqlite3.connect('test.db')
-c=con.execute("select * from student")
+c=con.execute("select * from students")
 print("records inserted are :")
 #con.execute("Create table guesses(user text not null,student text not null,department text not null,choice integer not null);")
 dict1={}
