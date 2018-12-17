@@ -1,0 +1,17 @@
+MONKEY PATCHING :
+
+->Monkey Patch refers to dynamic (or run-time) modifications of a class or module.
+
+->Here i go with proof.
+->mod module py file.
+->new.py file and its output.
+->mod file contains a function func().
+->First let us print the address pointed by mod.func().
+->Which is done by id(func).
+->In new.py mod.func is made dynamically point newfunc().
+->This is made by the command mod.func()=newfunc().
+->After patching now let us try to print the address of func()  function.
+->Trying id(func) prints a new address since we changed it by dynamic patching.
+->We can see here in output of two address after executing new.py.
+
+reference: https://www.geeksforgeeks.org/monkey-patching-in-python-dynamic-behavior/
